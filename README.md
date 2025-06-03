@@ -17,7 +17,6 @@ This analysis tries to describe an implementation of a DM project based on the C
 11. Applying CRISP-DM Process Model Across te Analysis
 
 ## 1) Understanding the Data
-
 To gain a better understanding of the dat we areagoing to include allhe information provided in the UCI lisve, and examinexclusively e the **Materials and Methods** section of the pap.  We have identified 17 marketing campaigns that this data has represented.t?
 
 ## 2) Import Necessary Libraries
