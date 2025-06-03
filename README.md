@@ -115,7 +115,7 @@ e. Possibly re-engineer features as needed
 - High subscriptions in months of October, December, September and March.  
 - Subscriptions with previous marketing campaigns marked as success with individuals are bringing notable high subscriptons.
 
-The above summary business points are recommended to be taken into consideration while targeting specific audiences in the next campaigns. This will help as well to prioritize messaging to the observed top converting groups.
+The above summary includes business points that are recommended to be taken into consideration while targeting specific audiences in the next campaigns. This will help as well to prioritize messaging to the observed top converting groups.
 
 
 
