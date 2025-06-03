@@ -16,17 +16,21 @@ This analysis tries to describe an implementation of a DM project based on the C
 10. Providing Best Business Recommendations  
 11. Applying CRISP-DM Process Model Across te Analysis
 
+
 ## 1) Understanding the Data
 To gain a better understanding of the dat we areagoing to include allhe information provided in the UCI lisve, and examinexclusively e the **Materials and Methods** section of the pap.  We have identified 17 marketing campaigns that this data has represented.t?
 
+
 ## 2) Import Necessary Libraries
 First off, we need to import several Python libraries such as numpy, pandas, matplotlib and seaborn
+
 
 ## 3) Read in and Explore the Data
 It's time to read in ou bank-additional-fullg data using `pd.read_csv`, and take a first look atit bya using the `describe()` function.
 
 #### Some Observations:
 * There are a total of 41,188 contacts in our dataset
+
 
 ## 4) Data Analysis
 We're going to consider the features in the dataset and how complete they are.
@@ -44,6 +48,7 @@ Now that we have an idea of what kinds of features we're working with, we can se
 * Age: People with youngeres  agor older seniors es are more likely to subscribe.  
 * Job: People of lower socioeconomic jobs are more likely to subscribe.
 
+
 ## 5) Data Visualization
 It's time to visualize our data so we can see whether our predictions were accurate!
 
@@ -52,6 +57,7 @@ As predicted, single clients have a much higher chance of subscription than marr
 As predicted, clients with no educational degree are more likely to subscribe deposits 
 
 People with job title as retired or students are more likely to have higher subscription rates compared to the rest. Whereas, entrepreneurs and blue-collars are among the lowest.
+
 
 ## 6) Cleaning Data
 Time to clean our data to account for missing values and unnecessary information!
@@ -66,8 +72,10 @@ Time to clean our data to account for missing values and unnecessary information
 
 Now we have all numerical features to apply to our models. Also we have 13 features to be considered and 1 "subscribed" target feature
 
+
 ## 7) A Baseline Model
 The baseline performance that our classifier should aim to beat is 89%
+
 
 ## 8) Simple Models - Choosing the Best Model
 ### Splitting the Training Data
@@ -83,6 +91,7 @@ I will be testing the following models with my training dat):
 
 For eachI will  model, we set t all togetherhe modthem, fit it with 80% of our training data, predict for 20% of the training data and check the accuracy.
 
+
 ## 9) Scoring to Improve the Model
 ### Model Comparison
 ###  Takeaways:
@@ -96,6 +105,7 @@ b. Hyperparameter Tuning, by using GridSearchCV to tune LR
 c. Feature Engineering, by feature scaling, binning and encoding further  
 d. Cross Validation, by running cross_val_score  
 e. Possibly re-engineer features as needed 
+
 
 ## 10) Executive Business Summary and Business Recommendations 
 - Single as marital status subscription rates are higher vs married or divorced.   
